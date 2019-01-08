@@ -3,6 +3,7 @@ nav ul {
 }
 
 nav li {
+  color: white;
   display: inline;
   padding: 10px;
   margin: 10px;
@@ -10,11 +11,17 @@ nav li {
 body {
   background-image: url(../images/ocean-tile.jpg);
   text-align: center;
+  font-family: fantasy;
   color: darkred;
-  font-size: 30px;
-
+  font-size: 35px;
 }
-.contact {
+#contact {
   background-image: url(../images/scream.jpg);
-  color: crimson;
+  color: #ff8787 ;
+}
+a:visited {
+  color: #8e028a;
+}
+#contact a:visited {
+  color: white;
 }
